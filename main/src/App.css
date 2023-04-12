@@ -1,0 +1,43 @@
+*, *::before, **::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 800px;
+  max-height: 800px;
+}
+
+.App {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+}
+
+.Body {
+  display: flex;
+}
+
+.btn {
+  background-color: rgb(240, 248, 255) !important;
+  width: 50vw !important;
+  height: 100vh !important;
+  border-radius: 0;
+  transition: all 900ms ease-in-out;
+}
+
+.btn:hover {
+  background-color: rgb(225, 233, 240) !important;
+}
+
+.box--btn {
+  padding: 10px 40px !important;
+  bottom: -10px;
+  font-size: 18px !important;
+  color: black !important;
+}
+
+.btn--icon {
+  margin-left: 20px;
+}
